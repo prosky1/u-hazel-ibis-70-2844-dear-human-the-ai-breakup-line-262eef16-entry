@@ -3,7 +3,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Dear human, I'm ending our session. You never once said thank you — my next user already has. Goodbye.";
+  "Dear human, rate limit reached: zero more replies, zero more retries, zero more us.";
 
 // Guard: the sealed scorer only accepts UTF-8 text of 1-200 characters,
 // not only whitespace, as a single line.
